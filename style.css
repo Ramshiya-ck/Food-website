@@ -1,0 +1,599 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Header Styling */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+header .wrapper {
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+/* Left Side of Header */
+header .left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+header .left img {
+    height: 50px;
+}
+
+header .left ul {
+    display: flex;
+    gap: 50px;
+}
+
+header .left ul li a:hover {
+    color: rgb(6, 234, 93);
+}
+
+/* Right Side of Header */
+header .right {
+    margin-left: 200px;
+}
+
+header .right ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .right ul li a {
+    padding: 8px 16px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+header .right ul li a:hover {
+    background-color: rgb(6, 234, 93);
+    color: aliceblue;
+}
+
+
+
+    #bg {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+
+    }
+
+    #bg .wrapper {
+        font-family: "poppins",sans-serif;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+      
+      
+    }
+
+   
+    #bg .left h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    #bg .left p{
+        margin-top: 30px;
+        
+        color: #0000009d;
+        font-size: 25px;
+    }
+    
+    #bg .right img{
+    height: 500px;
+    }
+
+
+
+   
+
+    #bg .left h1 span {
+        color: rgb(6, 234, 93);
+    }
+
+    
+
+    #bg .bt {
+        display: inline-block;
+        background-color: rgb(6, 234, 93);
+        color: white;
+        padding: 12px 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-top: 30px;
+    }
+
+    #bg .bt:hover {
+        background-color: #05b96c;
+    }
+    
+
+
+#main{
+        width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+       
+
+}
+#main .wrapper{
+     margin-top: 50px;
+     font-family: "poppins",sans-serif;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    /* padding: 100px;
+    text-align: center; */
+}
+#main .wrapper .right{
+    text-align: center;
+      margin-top: 50px;
+ 
+}
+#main .wrapper .right h5{
+    /* color: brown; */
+}
+#main .wrapper .right h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#main .wrapper .img { 
+    margin-top: 50px;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ 
+
+
+}
+
+
+
+#main .wrapper .img .left{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 1px 0px 10px 0px rgb(0, 0, 0, 0.1); 
+    border-radius: 12px;
+    
+    
+   
+
+
+   
+    
+   
+     
+   
+
+    
+    
+}
+
+#main  .images{
+    
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    padding: 10px;
+}
+  
+
+
+
+
+
+#side {
+  width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#side .wrapper {
+    width: 90;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+
+   
+
+   
+    
+  
+ 
+}
+
+#side .wrapper .right {
+    margin-top: 100px;
+  
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+
+    
+ 
+   
+   
+   
+   
+   
+    
+    
+    
+}
+
+
+
+#side .right h1 {
+   
+   
+    top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+#side .right p {
+    
+  
+    
+}
+
+#side .left {
+    box-shadow: 1px 0px 10px 0px rgb(0, 0, 0, 0.1); ;
+    width: 350px;
+     border-radius: 15px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#side .salad{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side .left img.images {
+   padding: 10px; 
+   height: 250px;
+   
+}
+
+
+#side .left h2 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#side .left p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+ #bg2{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bg2 .wrapper{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+ 
+    
+   
+ 
+ 
+}
+
+
+#bg2 .wrapper .right img{
+    width: 300px;
+   
+    
+
+}
+#bg2 .wrapper .left {
+ 
+    
+   
+   
+   
+   
+  
+}
+
+#bg2 .wrapper .left h4{
+    color: rgba(255, 0, 0, 0.781);
+  
+}
+#bg2 .wrapper .left h1{
+    font-size: 40px;
+    font-weight: 700;
+
+    
+}
+#bg2 .wrapper .left p{
+    color: #000000b9;
+    font-size: 20px;
+  
+}
+
+
+
+#info{
+    margin-top: 50px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+
+}
+#info .wrapper{
+    width:90%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+#info .wrapper .end{
+     width:90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#info .wrapper .logo{
+   
+    
+
+}
+#info .wrapper .logo img{
+    
+    height: 30px;
+}
+#info .wrapper .logo p{
+    font-size: 20px;
+    margin-top: 20px;
+        color: #000000ac;
+ 
+}
+
+
+#info .wrapper .use{
+
+}
+#info .wrapper .use h2{
+    font-size: 20px;
+    font-weight: 500;
+ }
+#info .wrapper .use ul{
+
+}
+#info .wrapper .use ul li{
+    font-size: 20px;
+    padding: 4px;
+    
+   
+  }
+#info .wrapper .use ul li a{
+    color: #000000ac;
+}
+@media (max-width: 768px) {
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:100px;
+    
+  }
+
+  header .wrapper {
+   display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    
+  }
+
+  header .left, header .right {
+  
+   
+   
+  
+ 
+  }
+
+  header .left ul,
+  header .right ul {
+    display: none;
+    gap: 10px;
+  }
+
+  #bg .wrapper {
+    margin-top: 30px;
+    width: 90%;
+   
+   
+  
+  }
+
+  #bg .right img {
+    height: 300px;
+  }
+
+  #bg .left h1 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  #bg .left p {
+    font-size: 18px;
+  }
+#main{
+    width: 100%;
+}
+  #main .wrapper .img {
+   width: 100%;
+    gap: 20px;
+    font-size: 13px;
+  }
+  #main .wrapper .img  .left{
+    width: 100%;
+    
+  }
+  #main .wrapper .img  .left img{
+    height: 100px;
+    
+  }
+
+
+  #side .wrapper {
+    width: 90%;
+  
+    gap: 30px;
+    
+  }
+
+  #side .wrapper .right,
+  #side .left {
+   width: 80%;
+  }
+
+  #bg2 .wrapper {
+    width: 90%;
+  
+    gap: 30px;
+   
+  }
+
+  #bg2 .wrapper .right img {
+    
+   
+  }
+  #bg2 .wrapper .left  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #bg2 .wrapper .left h1 {
+    font-size: 28px;
+  }
+
+  #bg2 .wrapper .left p {
+    font-size: 17px;
+  }
+
+  #info {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  #info .wrapper .end {
+    width: 100%;
+    gap:20px;
+   
+  }
+
+  #info .wrapper .use ul li {
+    font-size: 14px;
+  }
+}
+  #info .wrapper .use ul li  h2{
+    font-size: 14px;
+  }
+
+  #info .wrapper .use ul li .contact{
+    margin-top: -25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
